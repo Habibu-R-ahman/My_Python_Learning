@@ -87,3 +87,11 @@ a = names
 a.append("anu")
 print(names)
 # >>> ['habib', 'saif', 'nishan', 'shanto', 'mobasshir', 'anu']
+
+
+# Checking whether a value is IN a list or NOT
+if 'habib' in names:
+    print("He is Here!")
+if 'Mrunal' not in names:
+    print("She is no moreee")
+# NO need to worry about else!
