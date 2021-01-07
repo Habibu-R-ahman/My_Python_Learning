@@ -1,7 +1,8 @@
  # Which one is faster
 
  ## educative.io
- Tuple and List are two data structures in Python that can store data. Both data structures store data in a specific order of any type (e.g. integers or strings).
+ Tuple and List are two data structures in Python that can store data. Both data structures store data in a specific order of any type (e.g. integers or strings). 
+ <br />
 <img src="https://raw.githubusercontent.com/Habibu-R-ahman/My_Python_Learning/main/Assets/list_tuple.png">
 
 ## When each is used:
