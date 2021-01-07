@@ -1,4 +1,6 @@
  # Which one is faster
+
+ ## Stackoverflow
  ```x**2 is faster than x*x.```
 
 Implementation of exponent has some overhead in Python, so it is usually faster to use your custom multiplication O(n) with small multiplication count. ```x*x*x*x*x``` is way faster than ```x**5```. Exponent time is a sort of constant. Your multiplication time is increasing with exponent parameter, so with a large parameter it is better to use exponent. However, with really very small parameter (2, in your case), exponent is faster than multiplication. And ```x**2``` is faster than ```x*x```, although ```x**3``` is way slower than ```x*x*x```. You can find a nice benchmark in [this answer](https://stackoverflow.com/questions/18453771/why-is-x3-slower-than-xxx/18453999#18453999).
