@@ -19,7 +19,7 @@ We use
   ```#!/usr/bin/env python```
 instead of 
   ```#!/usr/bin/python```
-because we must specify an absolute path to a program, and /usr/bin/env 
+because we must specify an absolute path to a program, and ```/usr/bin/env ```
 is a utility that uses the user's path to run an application (in this
 case, python).  Thus, it's more portable.
 
@@ -39,11 +39,11 @@ to basics.py, use
 ## StackOverFlow
 
 ### Alex Martelli
-If you have several versions of Python installed, /usr/bin/env will ensure the interpreter used is the first one on your environment's $PATH. The alternative would be to hardcode something like #!/usr/bin/python; that's ok, but less flexible.
+If you have several versions of Python installed, ```/usr/bin/env``` will ensure the interpreter used is the first one on your environment's $PATH. The alternative would be to hardcode something like ```#!/usr/bin/python;``` that's ok, but less flexible.
 
 In Unix, an executable file that's meant to be interpreted can indicate what interpreter to use by having a #! at the start of the first line, followed by the interpreter (and any flags it may need).
 
 If you're talking about other platforms, of course, this rule does not apply (but that "shebang line" does no harm, and will help if you ever copy that script to a platform with a Unix base, such as Linux, Mac, etc).
 
 ### Craig McQueen
-Just to add: this applies when you run it in Unix by making it executable (chmod +x myscript.py) and then running it directly: ./myscript.py, rather than just python myscript.py. 
+Just to add: this applies when you run it in Unix by making it executable ```chmod +x myscript.py``` and then running it directly: ```./myscript.py```, rather than just ```python myscript.py```. 
