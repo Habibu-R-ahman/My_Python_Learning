@@ -1,7 +1,7 @@
  # Why do people write #!/usr/bin/env python on the first line of a Python script?
 
 ### Sam King <samking@cs.stanford.edu>
-#!/usr/bin/env python
+```#!/usr/bin/env python```
 """
 The first line in this file is the "shebang" line.  When you execute a file 
 from the shell, the shell tries to run the file using the command specified 
@@ -14,11 +14,11 @@ The shebang line was invented because scripts are not compiled, so they are
 not executable files, but people still want to "run" them.  The shebang
 line specifies exactly how to run a script.  In other words, this shebang
 line says that, when I type in ./basics.py, the shell will actuall run 
-  /usr/bin/env python basics.py
+  ```/usr/bin/env python basics.py```
 We use 
-  #!/usr/bin/env python
+  ```#!/usr/bin/env python```
 instead of 
-  #!/usr/bin/python
+  ```#!/usr/bin/python```
 because we must specify an absolute path to a program, and /usr/bin/env 
 is a utility that uses the user's path to run an application (in this
 case, python).  Thus, it's more portable.
@@ -34,7 +34,7 @@ http://diveintopython.org/
 In order to execute a python script without explicitly running python,
 you need to add execute permissions to the file.  To do add execute permission
 to basics.py, use
-  chmod u+x basics.py
+  ```chmod u+x basics.py```
 
 ## StackOverFlow
 
