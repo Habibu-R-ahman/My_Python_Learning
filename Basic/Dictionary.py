@@ -4,7 +4,7 @@
 
 player_0 = {'Tamim': 49, 'Habib': 'duck'}
 print(player_0)
-# >>> {'Tamim': 49, 'Sakib': 'duck'}
+# >>> {'Tamim': 49, 'Habib': 'duck'}
 print(player_0['Tamim'])
 # >>> 49
 print(player_0['Habib'])
